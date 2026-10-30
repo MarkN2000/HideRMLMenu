@@ -4,11 +4,7 @@
 
 ![HideRMLMenu](https://raw.githubusercontent.com/MarkN2000/HideRMLMenu/main/icon.png)
 
-A [Resonite](https://resonite.com/) mod that hides ResoniteModLoader's own settings menu while keeping individual mod settings available.
-
-Works with Bepis Mod Settings and RMLModSettings. Does nothing if RML is not loaded or its menu has already been removed.
-
-No configuration needed. To access RML's own settings again, disable this mod and restart the game.
+A [Resonite](https://resonite.com/) mod that hides the ResoniteModLoader (RML) settings menu.
 
 ## Installation
 
