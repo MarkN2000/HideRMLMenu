@@ -1,0 +1,16 @@
+<Project>
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GamePath Condition="'$(GamePath)' == ''">C:\Program Files (x86)\Steam\steamapps\common\Resonite</GamePath>
+    <DevProfile Condition="'$(DevProfile)' == ''">$(GamePath)</DevProfile>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- Reference installed assemblies without copying them to the output. -->
+    <Reference Include="$(GamePath)\FrooxEngine.dll;$(GamePath)\Elements.Core.dll" Private="false" />
+    <Reference Include="$(DevProfile)\BepInEx\core\BepInEx.Core.dll;$(DevProfile)\BepInEx\core\BepInEx.NET.Common.dll;$(DevProfile)\BepInEx\core\0Harmony.dll" Private="false" />
+    <Reference Include="$(DevProfile)\BepInEx\plugins\ResoniteModding-BepInExResoniteShim\BepInExResoniteShim\BepInExResoniteShim.dll" Private="false" />
+    <Reference Include="$(DevProfile)\BepInEx\plugins\ResoniteModding-BepisResoniteWrapper\BepisResoniteWrapper\BepisResoniteWrapper.dll" Private="false" />
+  </ItemGroup>
+</Project>

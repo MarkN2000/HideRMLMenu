@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HideRMLMenu\HideRMLMenu.csproj" />
+    <Reference Include="$(DevProfile)\BepInEx\core\Mono.Cecil.dll" Private="false" />
+  </ItemGroup>
+</Project>

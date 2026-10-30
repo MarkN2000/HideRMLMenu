@@ -1,0 +1,11 @@
+{
+  "name": "HideRMLMenu",
+  "version_number": "0.1.1",
+  "website_url": "https://github.com/MarkN2000/HideRMLMenu",
+  "description": "Hides RML's own settings menu while keeping individual mod settings available. Does nothing without RML.",
+  "dependencies": [
+    "ResoniteModding-BepisLoader-1.7.0",
+    "ResoniteModding-BepInExResoniteShim-0.9.3",
+    "ResoniteModding-BepisResoniteWrapper-1.0.2"
+  ]
+}
