@@ -8,7 +8,7 @@ A [Resonite](https://resonite.com/) mod that hides the ResoniteModLoader (RML) s
 
 ## Installation
 
-1. Install [BepisLoader](https://thunderstore.io/c/resonite/p/ResoniteModding/BepisLoader/) and [BepisResoniteWrapper](https://thunderstore.io/c/resonite/p/ResoniteModding/BepisResoniteWrapper/).
+1. Install [BepisLoader](https://thunderstore.io/c/resonite/p/ResoniteModding/BepisLoader/), [BepisResoniteWrapper](https://thunderstore.io/c/resonite/p/ResoniteModding/BepisResoniteWrapper/), and [ResoniteModLoaderLoader](https://thunderstore.io/c/resonite/p/DevL0rd/ResoniteModLoaderLoader/).
 2. Download the ZIP from [Releases](https://github.com/MarkN2000/HideRMLMenu/releases). Import it as a local mod in Gale, or copy its `plugins` folder into your profile's `BepInEx` folder.
 3. Restart Resonite.
 

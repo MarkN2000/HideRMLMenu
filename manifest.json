@@ -6,6 +6,7 @@
   "dependencies": [
     "ResoniteModding-BepisLoader-1.7.0",
     "ResoniteModding-BepInExResoniteShim-0.9.3",
-    "ResoniteModding-BepisResoniteWrapper-1.0.2"
+    "ResoniteModding-BepisResoniteWrapper-1.0.2",
+    "DevL0rd-ResoniteModLoaderLoader-0.1.0"
   ]
 }
